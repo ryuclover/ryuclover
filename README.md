@@ -41,10 +41,7 @@
 
 ---
 
- ##        ‌‌‌‌
-‌‌‌‌
-‌‌‌‌
-   📊 Estatísticas do GitHub 
+ ##    📊 Estatísticas do GitHub 
 
 <div style="display: flex; justify-content: space-around;">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ryuclover&show_icons=true&layout=compact&theme=radical&cache_seconds=3600"/>
