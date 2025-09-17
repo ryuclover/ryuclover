@@ -2,17 +2,20 @@
   <img src="https://64.media.tumblr.com/6f28c02739149306c775e1d027edfb1a/tumblr_patorchsbX1vjxiz1o1_400.gifv" />
 </p>
 
-# 👋 Olá, eu sou Ryu
+<h1 align="center"> Oi, sou Gabriel</h1>
+<p align="center">
+  <a href="https://yuna0x0.com">
+    <img src="https://yuna0x0.com/88x31.webp" alt="yuna0x0">
+  </a>
+</p>
+<h3 align="center">Bem vindo ao meu Github</h3>
 
-
-
-## 🚀 Sobre mim
-Sou um **`desenvolvedor júnior`** em crescimento, com foco em **JavaScript, TypeScript e Python**, 
-Tenho interesse em construir aplicações eficientes, seguras e bem estruturadas, aliando **boas práticas de programação** com a busca por **soluções criativas**.  
-- 💼 Atualmente trabalhando em projetos pessoais e colaborativos, explorando desde a criação de interfaces modernas em frontend até a construção de sistemas robustos e escaláveis no backend.
-- 🌱 Aprendendo mais sobre: **Python e SQL**  
-- 🎯 Objetivo: evoluir como desenvolvedor **FullStack**
-- 🤖 Pseudônimo: utilizo Falcon como um nome alternativo para a internet
+<p align="center">Sou um **`desenvolvedor júnior`**  com foco em desenvolvimento web 
+Estudo na UFRJ no curso de CMT-analise de dados
+Atualmente tenho interesse principalmente em desenvolvimento mobile, jogos e em e-commerces
+- 💼 Atualmente trabalhando em projetos pessoais e da faculdade.
+- 🎯 Objetivo: desenvolver maais meu portfolio de programação 
+- 🤖 Pseudônimo: utilizo Ryu como um nome alternativo para a internet em homenagem a meu personagem fictício favorito ～☆</p>
 
 
 ---
