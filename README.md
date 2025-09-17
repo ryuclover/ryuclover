@@ -10,17 +10,17 @@
 </p>
 <h3 align="center">Bem vindo ao meu Github</h3>
 
-<p align="center">Sou um desenvolvedor júnior com foco em desenvolvimento web 
+<p align="center">Sou um desenvolvedor júnior com foco em desenvolvimento web </p>
 
-  Estudo na UFRJ no curso de CMT-analise de dados
+  <p align="center">Estudo na UFRJ no curso de CMT-analise de dados</p>
 
-Atualmente tenho interesse principalmente em desenvolvimento mobile, jogos e em e-commerces
+<p align="center">Atualmente tenho interesse principalmente em desenvolvimento mobile, jogos e em e-commerces</p>
 
-- 💼 Atualmente trabalhando em projetos pessoais e da faculdade.
+<p align="center">- 💼 Atualmente trabalhando em projetos pessoais e da faculdade.</p>
 
-- 🎯 Objetivo: desenvolver maais meu portfolio de programação 
+<p align="center">- 🎯 Objetivo: desenvolver maais meu portfolio de programação </p>
 
-- 🤖 Pseudônimo: utilizo Ryu como um nome alternativo para a internet em homenagem a meu personagem fictício favorito ～☆</p>
+<p align="center">- 🤖 Pseudônimo: utilizo Ryu como um nome alternativo para a internet em homenagem a meu personagem fictício favorito ～☆</p>
 
 
 ---
