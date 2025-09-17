@@ -5,7 +5,7 @@
 <h1 align="center"> Oi, eu sou Gabriel</h1>
 <p align="center">
   <a href="xxxxxx">
-    <img src="https://i.imgur.com/kbxJESx.gif" width="100" alt="gif">
+    <img src="https://i.imgur.com/kbxJESx.gif" width="70" alt="gif">
   </a>
 </p>
 <h3 align="center">Bem vindo ao meu Github</h3>
