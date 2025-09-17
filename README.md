@@ -2,7 +2,7 @@
   <img src="https://64.media.tumblr.com/6f28c02739149306c775e1d027edfb1a/tumblr_patorchsbX1vjxiz1o1_400.gifv" />
 </p>
 
-<h1 align="center"> Oi, sou Gabriel</h1>
+<h1 align="center"> Oi, eu sou Gabriel</h1>
 <p align="center">
   <a href="xxxxxx">
     <img src="https://i.imgur.com/kbxJESx.gif" alt="gif">
