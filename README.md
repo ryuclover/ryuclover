@@ -25,7 +25,10 @@
 
 ---
 
-##            🛠️ Tecnologias & Ferramentas 
+##      ‌‌‌‌
+‌‌‌‌
+     ‌‌‌‌
+ 🛠️ Tecnologias & Ferramentas 
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -38,7 +41,10 @@
 
 ---
 
- ##           📊 Estatísticas do GitHub 
+ ##        ‌‌‌‌
+‌‌‌‌
+‌‌‌‌
+   📊 Estatísticas do GitHub 
 
 <div style="display: flex; justify-content: space-around;">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ryuclover&show_icons=true&layout=compact&theme=radical&cache_seconds=3600"/>
