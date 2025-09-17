@@ -4,17 +4,22 @@
 
 <h1 align="center"> Oi, sou Gabriel</h1>
 <p align="center">
-  <a href="https://yuna0x0.com">
-    <img src="https://yuna0x0.com/88x31.webp" alt="yuna0x0">
+  <a href="xxxxxx">
+    <img src="https://i.imgur.com/kbxJESx.gif" alt="gif">
   </a>
 </p>
 <h3 align="center">Bem vindo ao meu Github</h3>
 
-<p align="center">Sou um **`desenvolvedor júnior`**  com foco em desenvolvimento web 
-Estudo na UFRJ no curso de CMT-analise de dados
+<p align="center">Sou um desenvolvedor júnior com foco em desenvolvimento web 
+
+  Estudo na UFRJ no curso de CMT-analise de dados
+
 Atualmente tenho interesse principalmente em desenvolvimento mobile, jogos e em e-commerces
+
 - 💼 Atualmente trabalhando em projetos pessoais e da faculdade.
+
 - 🎯 Objetivo: desenvolver maais meu portfolio de programação 
+
 - 🤖 Pseudônimo: utilizo Ryu como um nome alternativo para a internet em homenagem a meu personagem fictício favorito ～☆</p>
 
 
