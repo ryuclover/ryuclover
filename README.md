@@ -25,10 +25,7 @@
 
 ---
 
-##      ‌‌‌‌
-‌‌‌‌
-     ‌‌‌‌
- 🛠️ Tecnologias & Ferramentas 
+##     🛠️ Tecnologias & Ferramentas 
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
