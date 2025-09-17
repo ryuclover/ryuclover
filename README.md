@@ -18,7 +18,7 @@
 
 <p align="center">- 💼 Atualmente trabalhando em projetos pessoais e da faculdade.</p>
 
-<p align="center">- 🎯 Objetivo: desenvolver maais meu portfolio de programação </p>
+<p align="center">- 🎯 Objetivo: desenvolver mais meu portfolio de programação </p>
 
 <p align="center">- 🤖 Pseudônimo: utilizo Ryu como um nome alternativo para a internet em homenagem a meu personagem fictício favorito ～☆</p>
 
