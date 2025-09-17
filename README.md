@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://64.media.tumblr.com/6f28c02739149306c775e1d027edfb1a/tumblr_patorchsbX1vjxiz1o1_400.gifv" />
+  <img src="https://64.media.tumblr.com/6f28c02739149306c775e1d027edfb1a/tumblr_patorchsbX1vjxiz1o1_400.gifv" width="600" />
 </p>
 
 <h1 align="center"> Oi, eu sou Gabriel</h1>
 <p align="center">
   <a href="xxxxxx">
-    <img src="https://i.imgur.com/kbxJESx.gif" width="600" alt="gif">
+    <img src="https://i.imgur.com/kbxJESx.gif" width="60" alt="gif">
   </a>
 </p>
 <h3 align="center">Bem vindo ao meu Github</h3>
