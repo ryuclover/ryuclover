@@ -37,11 +37,3 @@
 ![XML](https://img.shields.io/badge/-XML-8A2BE2?style=flat&logo=w3c&logoColor=white)
 
 ---
-
- ##    📊 Estatísticas do GitHub 
-
-<div style="display: flex; justify-content: space-around;">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ryuclover&show_icons=true&layout=compact&theme=radical&cache_seconds=3600"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ryuclover&layout=compact&theme=radical&cache_seconds=3600"/>
-</div>
-
