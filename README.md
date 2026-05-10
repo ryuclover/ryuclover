@@ -16,7 +16,7 @@
 
 <p align="center">Atualmente tenho interesse principalmente em desenvolvimento mobile, jogos e em e-commerces</p>
 
-<p align="center">- 💼 Atualmente trabalhando em projetos pessoais e da faculdade.</p>
+<p align="center">- 💼 Atualmente trabalhao freelancer na empresa Olympus Tech, em projetos pessoais e da faculdade.</p>
 
 <p align="center">- 🎯 Objetivo: desenvolver mais meu portfolio de programação </p>
 
