@@ -6,15 +6,21 @@
 </p>
 <h3 align="center">Bem vindo ao meu Github</h3>
 
+
+<h2 align="center">Sobre mim</h2>
+
 <p align="center">Sou um desenvolvedor júnior com foco em desenvolvimento web </p>
 
   <p align="center">Atualmente estudo na UFRJ no curso de CMT-analise de dados e estudo sozinho por cursos online de programação</p>
 
+<p align="center">Já trabalhei muito com desenvolvimento web e automação de serviços</p>
 
-<h3 align="center">Sobre mim</h3>
-Atualmente atuando como Dev Junior na TimeSaver
+<p align="center">Atualmente atuando como Dev Junior na TimeSaver</p>
 
-Experiência em healthtech, automação de processos médicos e integrações com sistemas de gestão
+
+  <p align="center">
+Experiência em healthtech, automação de processos médicos e integrações com sistemas de gestão</p>
+
 
 
 ##     🛠️ Tecnologias & Ferramentas 
