@@ -15,7 +15,7 @@
 Atualmente atuando como Dev Junior na TimeSaver
 
 Experiência em healthtech, automação de processos médicos e integrações com sistemas de gestão
----
+
 
 ##     🛠️ Tecnologias & Ferramentas 
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
