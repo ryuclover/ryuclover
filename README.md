@@ -10,6 +10,10 @@
 
   <p align="center">Atualmente estudo na UFRJ no curso de CMT-analise de dados e estudo sozinho por cursos online de programação</p>
 
+
+<h3 align="center">Sobre mim</h3>
+Atualmente atuando como Dev Junior na TimeSaver
+Experiência em healthtech, automação de processos médicos e integrações com sistemas de gestão
 ---
 
 ##     🛠️ Tecnologias & Ferramentas 
