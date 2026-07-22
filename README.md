@@ -11,7 +11,7 @@
 
 <p align="center">Sou um desenvolvedor júnior com foco em desenvolvimento web </p>
 
-  <p align="center">Atualmente estudo na UFRJ no curso de CMT-analise de dados e estudo sozinho por cursos online de programação</p>
+  <p align="center">Atualmente estudo na UFRJ no curso de CMT-analise de dados </p>
 
 <p align="center">Já trabalhei muito com desenvolvimento web e automação de serviços</p>
 
