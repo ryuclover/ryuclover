@@ -62,12 +62,14 @@ Confira alguns dos principais projetos do meu portfólio. Para a lista completa 
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ryuclover&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ryuclover&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ryuclover&theme=tokyonight" alt="Visão Geral do Perfil GitHub" width="700" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ryuclover&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ryuclover&theme=tokyonight" alt="Estatísticas Gerais" width="345" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ryuclover&theme=tokyonight" alt="Linguagens Mais Utilizadas" width="345" />
 </div>
 
 ---
