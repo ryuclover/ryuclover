@@ -19,7 +19,7 @@
 
 ## 👨‍💻 Sobre Mim
 
-- 💼 Atualmente atuando como **Desenvolvedor Júnior na [TimeSaver](https://www.linkedin.com/in/gabrielmsas/)**, com foco em **Healthtech**, automação de fluxos médicos, integrações com sistemas de gestão e desenvolvimento de soluções escaláveis.
+- 💼 Atualmente atuando como **Desenvolvedor na [TimeSaver](https://www.linkedin.com/in/gabrielmsas/)**, com foco em **Healthtech**, automação de fluxos médicos, integrações com sistemas de gestão e desenvolvimento de soluções escaláveis.
 - 🎓 Graduando em **Ciência e Análise de Dados na Universidade Federal do Rio de Janeiro (UFRJ)**.
 - ⚙️ Experiência prática construindo aplicações web de ponta a ponta com **TypeScript, JavaScript, Python e Go**, aplicando padrões como **Arquitetura Hexagonal, SOLID, TDD e boas práticas OWASP**.
 - 🚀 Apaixonado por transformar desafios complexos em produtos digitais de alta performance, desde comparadores inteligentes e plataformas em tempo real até infraestrutura em nuvem e observabilidade.
