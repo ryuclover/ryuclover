@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ryuclover/ryuclover/main/computador-imagem-animada-0494.gif" alt="Retro Computer GIF" width="300" />
+</p>
+
 <div align="center">
 
 # Olá! Eu sou o Gabriel Silva 👋
@@ -14,12 +18,6 @@
 [![Guia dos Projetos](https://img.shields.io/badge/📖_Catálogo-Guia_dos_Meus_Projetos-0ea5e9?style=for-the-badge)](https://github.com/ryuclover/Guia-dos-meus-projetos)
 
 </div>
-
-<br/>
-
-<p align="center">
-  <img src="computador-imagem-animada-0494.gif" alt="Retro Computer GIF" width="320" />
-</p>
 
 ---
 
