@@ -15,6 +15,12 @@
 
 </div>
 
+<br/>
+
+<p align="center">
+  <img src="computador-imagem-animada-0494.gif" alt="Retro Computer GIF" width="320" />
+</p>
+
 ---
 
 ## 👨‍💻 Sobre Mim
