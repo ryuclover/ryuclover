@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ryuclover/ryuclover/main/computador-imagem-animada-0494.gif" alt="Retro Computer GIF" width="300" />
-</p>
-
 <div align="center">
 
 # Olá! Eu sou o Gabriel Silva 👋
