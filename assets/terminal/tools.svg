@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="224" viewBox="0 0 1000 224" role="img" aria-label="Tecnologias e ferramentas: TypeScript, React, Next.js, Vite, Node.js, Python, Flask, Go, PostgreSQL, Supabase, SQLite, Docker, Git, Vitest e Grafana.">
+<title>Tecnologias e ferramentas: TypeScript, React, Next.js, Vite, Node.js, Python, Flask, Go, PostgreSQL, Supabase, SQLite, Docker, Git, Vitest e Grafana.</title>
+<defs>
+ <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4" stroke="#000" stroke-opacity=".15"/></pattern>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9dffb0" stroke-opacity=".025"/></pattern>
+ <linearGradient id="sweep"><stop stop-color="#9dffb0" stop-opacity="0"/><stop offset=".5" stop-color="#9dffb0" stop-opacity=".6"/><stop offset="1" stop-color="#9dffb0" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+ text { font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace; }
+ .blink { animation: blink 1.5s steps(2, end) infinite; }
+ .breathe { animation: breathe 4s ease-in-out infinite; }
+ .flow { animation: flow 6s linear infinite; }
+ .rain { animation: rain 13s linear infinite; }
+ .reveal { animation: reveal 3s steps(28, end) 1 both; }
+ .clover-drift { animation: clover-drift 4s ease-in-out infinite; }
+ @keyframes blink { 50% { opacity: .15; } }
+ @keyframes breathe { 50% { opacity: .45; } }
+ @keyframes flow { to { transform: translateX(1000px); } }
+ @keyframes rain { to { transform: translateY(280px); } }
+ @keyframes reveal { from { opacity: .25; } to { opacity: 1; } }
+ @keyframes clover-drift { 50% { transform: translateY(-9px); } }
+</style>
+<rect x=".5" y=".5" width="999" height="223" rx="9" fill="#090e0c" stroke="#24382e"/>
+<rect x="1" y="1" width="998" height="222" rx="9" fill="url(#grid)"/>
+<text x="32" y="34" font-size="26" fill="#e4f0e8" font-weight="700">Tecnologias e ferramentas</text><text x="32" y="79" font-size="11" fill="#9dffb0" letter-spacing=".7">FRONTEND</text><text x="240" y="79" font-size="16" fill="#e4f0e8" >TypeScript · React · Next.js · Vite</text><text x="32" y="117" font-size="11" fill="#9dffb0" letter-spacing=".7">BACKEND</text><text x="240" y="117" font-size="16" fill="#e4f0e8" >Node.js · Python / Flask · Go</text><text x="32" y="155" font-size="11" fill="#9dffb0" letter-spacing=".7">DADOS</text><text x="240" y="155" font-size="16" fill="#e4f0e8" >PostgreSQL · Supabase · SQLite</text><text x="32" y="193" font-size="11" fill="#9dffb0" letter-spacing=".7">INFRA / QUALIDADE</text><text x="240" y="193" font-size="16" fill="#e4f0e8" >Docker · Git · Vitest · Grafana</text>
+<rect x="1" y="1" width="998" height="222" rx="9" fill="url(#scan)" pointer-events="none"/>
+</svg>
