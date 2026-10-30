@@ -48,6 +48,7 @@ Projetos recentes e aplicações que representam meu trabalho com interfaces, in
 
 | Projeto | Descrição & Recursos Principais | Tecnologias | Acesso |
 | :--- | :--- | :--- | :--- |
+| **[Olympus Painel](https://github.com/ryuclover/Olympus-painel)** | Plataforma de prospecção e gestão de leads com busca de empresas, mapa, Kanban, reuniões, contratos e módulos de automação e IA. | React, TypeScript, Electron, Python, Flask, SQLite, Supabase | [Código e guia](https://github.com/ryuclover/Olympus-painel#readme) |
 | **[Wide Studio](https://github.com/ryuclover/wide-studio)** | Extensão para wide.video com workspace reorganizado, importação de pastas públicas do Google Drive e vídeos por URL, seleção múltipla e clipes vinculados. | TypeScript, extensão de navegador, integração com wide.video | [Download](https://github.com/ryuclover/wide-studio/releases/latest) |
 | **[Photopea AI Studio](https://github.com/ryuclover/photopea-ai-studio)** | Plugin experimental de edição por seleção com IA: captura do canvas, prévia, ajustes de borda e inserção do resultado em uma nova camada. | React, TypeScript, Vite, SDXL / Hugging Face | [Código e guia](https://github.com/ryuclover/photopea-ai-studio#readme) |
 | **[BeeHost](https://github.com/ryuclover/BeeHost)** | Plataforma de hospedagem de servidores Minecraft com vitrine pixel art, checkout PIX, provisionamento em nuvem e painéis de cliente e administrador. | React, TypeScript, Node.js, Asaas, Daytona, PaperMC | [Código e demonstrações](https://github.com/ryuclover/BeeHost#readme) |
