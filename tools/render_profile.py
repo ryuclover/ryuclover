@@ -198,15 +198,35 @@ def stats_card(mobile=False):
     return frame(w,h,f'Estatísticas do GitHub: {values[0][0]} repositórios públicos, {values[1][0]} seguidores e {values[2][0]} contribuições nos últimos 12 meses. Consulta em {date}.',s)
 
 def tools_card(mobile=False):
-    w,h=(480,314) if mobile else (1000,224)
+    w=480 if mobile else 1000
     x=24 if mobile else 32
     s=txt(x,34,'Tecnologias e ferramentas',22 if mobile else 26,WHITE,font_weight='700')
-    rows=[('FRONTEND','TypeScript · React · Next.js · Vite'),('BACKEND','Node.js · Python / Flask · Go'),('DADOS','PostgreSQL · Supabase · SQLite'),('INFRA / QUALIDADE','Docker · Git · Vitest · Grafana')]
-    for n,(name,items) in enumerate(rows):
-        y=76+n*60 if mobile else 79+n*38
-        s+=txt(x,y,name,10 if mobile else 11,GREEN,letter_spacing='.7')
-        s+=txt(x if mobile else 240,y+23 if mobile else y,items,14 if mobile else 16,WHITE)
-    return frame(w,h,'Tecnologias e ferramentas: TypeScript, React, Next.js, Vite, Node.js, Python, Flask, Go, PostgreSQL, Supabase, SQLite, Docker, Git, Vitest e Grafana.',s)
+    groups=[('FRONTEND',['react','nextjs','typescript','vite','tailwind']),('BACKEND',['node','python','flask','go']),('DADOS',['postgres','supabase','sqlite']),('INFRA / QUALIDADE',['docker','git','vitest','grafana'])]
+    y=76 if mobile else 70
+    for label,slugs in groups:
+        s+=txt(x,y if mobile else y+18,label,10 if mobile else 11,GREEN,letter_spacing='.7')
+        top=y+12 if mobile else y
+        xx=x if mobile else 240
+        for slug in slugs:
+            node=ET.fromstring((ROOT/'assets/badges'/f'{slug}.svg').read_text(encoding='utf-8'))
+            bw,bh=float(node.get('width')),float(node.get('height'))
+            scaled=round(bw*1.2,1)
+            if xx+scaled>w-x:
+                xx=x if mobile else 240
+                top+=32
+            node.set('viewBox',f'0 0 {bw} {bh}')
+            node.set('x',str(xx));node.set('y',str(top))
+            node.set('width',str(scaled));node.set('height','24')
+            raw=ET.tostring(node,encoding='unicode')
+            # Every nested badge has isolated gradient / clip IDs.
+            for element in node.iter():
+                if element.get('id'):
+                    ident=element.get('id')
+                    raw=raw.replace(f'id="{ident}"',f'id="{slug}-{ident}"').replace(f'url(#{ident})',f'url(#{slug}-{ident})')
+            s+=raw
+            xx+=scaled+8
+        y=top+56 if mobile else top+50
+    return frame(w,y+8 if mobile else y,'Tecnologias e ferramentas organizadas por área, com badges coloridos e ícones de cada ferramenta.',s)
 
 def save(name,text):
     ET.fromstring(text)
@@ -214,7 +234,7 @@ def save(name,text):
     (OUT/name).write_text(text,encoding='utf-8',newline='\n')
 
 def picture(slug,alt):
-    return f'<picture>\n  <source media="(max-width: 560px)" srcset="./assets/terminal/{slug}-mobile.svg?v=4">\n  <img src="./assets/terminal/{slug}.svg?v=4" width="100%" alt="{escape(alt)}">\n</picture>'
+    return f'<picture>\n  <source media="(max-width: 560px)" srcset="./assets/terminal/{slug}-mobile.svg?v=5">\n  <img src="./assets/terminal/{slug}.svg?v=5" width="100%" alt="{escape(alt)}">\n</picture>'
 
 def main():
     for mobile in (False,True):
