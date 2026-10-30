@@ -12,11 +12,13 @@
  .flow { animation: flow 6s linear infinite; }
  .rain { animation: rain 13s linear infinite; }
  .reveal { animation: reveal 3s steps(28, end) 1 both; }
+ .clover-drift { animation: clover-drift 4s ease-in-out infinite; }
  @keyframes blink { 50% { opacity: .15; } }
  @keyframes breathe { 50% { opacity: .45; } }
  @keyframes flow { to { transform: translateX(1000px); } }
  @keyframes rain { to { transform: translateY(280px); } }
  @keyframes reveal { from { opacity: .25; } to { opacity: 1; } }
+ @keyframes clover-drift { 50% { transform: translateY(-9px); } }
 </style>
 <rect x=".5" y=".5" width="999" height="267" rx="9" fill="#090e0c" stroke="#24382e"/>
 <rect x="1" y="1" width="998" height="266" rx="9" fill="url(#grid)"/>

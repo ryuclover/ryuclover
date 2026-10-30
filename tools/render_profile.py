@@ -57,11 +57,13 @@ def frame(width,height,title,body):
  .flow {{ animation: flow 6s linear infinite; }}
  .rain {{ animation: rain 13s linear infinite; }}
  .reveal {{ animation: reveal 3s steps(28, end) 1 both; }}
+ .clover-drift {{ animation: clover-drift 4s ease-in-out infinite; }}
  @keyframes blink {{ 50% {{ opacity: .15; }} }}
  @keyframes breathe {{ 50% {{ opacity: .45; }} }}
  @keyframes flow {{ to {{ transform: translateX({width}px); }} }}
  @keyframes rain {{ to {{ transform: translateY(280px); }} }}
  @keyframes reveal {{ from {{ opacity: .25; }} to {{ opacity: 1; }} }}
+ @keyframes clover-drift {{ 50% {{ transform: translateY(-9px); }} }}
 </style>
 <rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="9" fill="{BG}" stroke="{LINE}"/>
 <rect x="1" y="1" width="{width-2}" height="{height-2}" rx="9" fill="url(#grid)"/>
@@ -89,19 +91,19 @@ def pixel_name(x,y,p):
     return result+'</g>'
 
 def clover(x,y,scale=1):
-    s=f'<g transform="translate({x} {y}) scale({scale})" aria-hidden="true">'
+    s=f'<g transform="translate({x} {y}) scale({scale})" aria-hidden="true"><g class="clover-drift">'
     # Four heart-shaped leaves: a clover built from terminal glyphs, never a bitmap.
     for angle in (0,90,180,270):
-        s+=f'<g transform="rotate({angle})" class="breathe"><path d="M0 0C-74-28-75-98-35-104C-14-108 0-88 0-76C0-88 14-108 35-104C75-98 74-28 0 0Z" fill="{GREEN}" fill-opacity=".025" stroke="{GREEN}" stroke-opacity=".52" stroke-width="1" stroke-dasharray="2 4"/>'
+        s+=f'<g transform="rotate({angle})" class="breathe" style="animation-delay:-{angle/90*.7}s"><path d="M0 0C-74-28-75-98-35-104C-14-108 0-88 0-76C0-88 14-108 35-104C75-98 74-28 0 0Z" fill="{GREEN}" fill-opacity=".025" stroke="{GREEN}" stroke-opacity=".52" stroke-width="1" stroke-dasharray="2 4"/>'
         for row,string in enumerate(['.:::.   .:::.',':::++::::++:::','::++######++::',' ::++####++:: ','   ::++++::   ','     ::::     ']):
             s+=txt(-61,-84+row*12,string,11,GREEN,opacity='.8')
         s+='</g>'
     s+=f'<circle r="8" fill="{BG}" stroke="{GREEN}"/><path d="M0 9Q28 56 12 84" fill="none" stroke="{GREEN}" stroke-width="2"/>'
     s+=txt(-48,140,'[ ryuclover ]',12,MUTED)
-    return s+'</g>'
+    return s+'</g></g>'
 
 def rain(width,height,seed=7):
-    rng=random.Random(seed); s='<g aria-hidden="true" opacity=".10">'
+    rng=random.Random(seed); s='<g aria-hidden="true" opacity=".19">'
     for col in range(15):
         x=width*.54+col*(width*.46/15)
         s+=f'<g class="rain" style="animation-delay:-{rng.randrange(13)}s">'
@@ -199,12 +201,9 @@ def save(name,text):
     ET.fromstring(text)
     assert '<script' not in text and '<foreignObject' not in text
     (OUT/name).write_text(text,encoding='utf-8',newline='\n')
-    if not name.startswith('button-'):
-        static=text.replace('</svg>','<style>.blink,.breathe,.flow,.rain,.reveal { animation: none !important; }</style></svg>')
-        (OUT/(name[:-4]+'-static.svg')).write_text(static,encoding='utf-8',newline='\n')
 
 def picture(slug,alt):
-    return f'<picture>\n  <source media="(prefers-reduced-motion: reduce) and (max-width: 560px)" srcset="./assets/terminal/{slug}-mobile-static.svg">\n  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/terminal/{slug}-static.svg">\n  <source media="(max-width: 560px)" srcset="./assets/terminal/{slug}-mobile.svg">\n  <img src="./assets/terminal/{slug}.svg" width="100%" alt="{escape(alt)}">\n</picture>'
+    return f'<picture>\n  <source media="(max-width: 560px)" srcset="./assets/terminal/{slug}-mobile.svg?v=2">\n  <img src="./assets/terminal/{slug}.svg?v=2" width="100%" alt="{escape(alt)}">\n</picture>'
 
 def main():
     for mobile in (False,True):
