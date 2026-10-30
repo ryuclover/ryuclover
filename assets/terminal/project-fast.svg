@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="211" viewBox="0 0 1000 211" role="img" aria-label="Fast-Travel — Menos abas. Mais caminhos para viajar. Comparação de passagens e busca ID Jovem.">
-<title>Fast-Travel — Menos abas. Mais caminhos para viajar. Comparação de passagens e busca ID Jovem.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="132" viewBox="0 0 1000 132" role="img" aria-label="Fast-Travel — Comparador de passagens de ônibus. Busca por datas e benefícios ID Jovem.">
+<title>Fast-Travel — Comparador de passagens de ônibus. Busca por datas e benefícios ID Jovem.</title>
 <defs>
  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4" stroke="#000" stroke-opacity=".15"/></pattern>
  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9dffb0" stroke-opacity=".025"/></pattern>
@@ -20,8 +20,8 @@
  @keyframes reveal { from { opacity: .25; } to { opacity: 1; } }
  @keyframes clover-drift { 50% { transform: translateY(-9px); } }
 </style>
-<rect x=".5" y=".5" width="999" height="210" rx="9" fill="#090e0c" stroke="#24382e"/>
-<rect x="1" y="1" width="998" height="209" rx="9" fill="url(#grid)"/>
-<text x="32" y="29" font-size="12" fill="#9dffb0" >[05] ~/fast</text><text x="968" y="29" font-size="11" fill="#d9bd84" text-anchor="end">WEB APP</text><path d="M1 46H999" stroke="#24382e"/><text x="32" y="92" font-size="30" fill="#e4f0e8" font-weight="700" letter-spacing="-.6">Fast-Travel</text><text x="32" y="127" font-size="17" fill="#e4f0e8" >Menos abas. Mais caminhos para viajar.</text><text x="32" y="153" font-size="17" fill="#e4f0e8" >Comparação de passagens e busca ID Jovem.</text><text x="32" y="187" font-size="13" fill="#789184" >Next.js · TypeScript · APIs · Web Scraping</text><text x="962" y="135" font-size="64" fill="#24382e" text-anchor="end" font-weight="700">/05</text><text x="965" y="186" font-size="13" fill="#9dffb0" text-anchor="end">EXPLORAR ↗</text><rect class="flow" x="-1000" y="209" width="1000" height="1" fill="url(#sweep)" style="animation-delay:-4.0s"/>
-<rect x="1" y="1" width="998" height="209" rx="9" fill="url(#scan)" pointer-events="none"/>
+<rect x=".5" y=".5" width="999" height="131" rx="9" fill="#090e0c" stroke="#24382e"/>
+<rect x="1" y="1" width="998" height="130" rx="9" fill="url(#grid)"/>
+<text x="32" y="41" font-size="27" fill="#e4f0e8" font-weight="700">Fast-Travel</text><text x="968" y="41" font-size="21" fill="#9dffb0" text-anchor="end">↗</text><text x="32" y="76" font-size="16" fill="#e4f0e8" >Comparador de passagens de ônibus. Busca por datas e benefícios ID Jovem.</text><text x="32" y="107" font-size="12" fill="#789184" >Next.js · TypeScript · APIs · Web Scraping</text>
+<rect x="1" y="1" width="998" height="130" rx="9" fill="url(#scan)" pointer-events="none"/>
 </svg>

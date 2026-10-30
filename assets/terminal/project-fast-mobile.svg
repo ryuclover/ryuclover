@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="273" viewBox="0 0 480 273" role="img" aria-label="Fast-Travel — Menos abas. Mais caminhos para viajar. Comparação de passagens e busca ID Jovem.">
-<title>Fast-Travel — Menos abas. Mais caminhos para viajar. Comparação de passagens e busca ID Jovem.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="166" viewBox="0 0 480 166" role="img" aria-label="Fast-Travel — Comparador de passagens de ônibus. Busca por datas e benefícios ID Jovem.">
+<title>Fast-Travel — Comparador de passagens de ônibus. Busca por datas e benefícios ID Jovem.</title>
 <defs>
  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4" stroke="#000" stroke-opacity=".15"/></pattern>
  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9dffb0" stroke-opacity=".025"/></pattern>
@@ -20,8 +20,8 @@
  @keyframes reveal { from { opacity: .25; } to { opacity: 1; } }
  @keyframes clover-drift { 50% { transform: translateY(-9px); } }
 </style>
-<rect x=".5" y=".5" width="479" height="272" rx="9" fill="#090e0c" stroke="#24382e"/>
-<rect x="1" y="1" width="478" height="271" rx="9" fill="url(#grid)"/>
-<text x="24" y="29" font-size="12" fill="#9dffb0" >[05] ~/fast</text><text x="456" y="29" font-size="11" fill="#d9bd84" text-anchor="end">WEB APP</text><path d="M1 46H479" stroke="#24382e"/><text x="24" y="92" font-size="25" fill="#e4f0e8" font-weight="700" letter-spacing="-.6">Fast-Travel</text><text x="24" y="129" font-size="15" fill="#e4f0e8" >Menos abas. Mais caminhos para viajar.</text><text x="24" y="153" font-size="15" fill="#e4f0e8" >Passagens de ônibus e busca ID Jovem.</text><text x="24" y="191" font-size="13" fill="#789184" >Next.js · TypeScript · APIs</text><path d="M24 213H456" stroke="#24382e"/><text x="24" y="245" font-size="10" fill="#789184" >MOBILIDADE</text><text x="456" y="245" font-size="13" fill="#9dffb0" text-anchor="end">EXPLORAR ↗</text><rect class="flow" x="-480" y="271" width="480" height="1" fill="url(#sweep)" style="animation-delay:-4.0s"/>
-<rect x="1" y="1" width="478" height="271" rx="9" fill="url(#scan)" pointer-events="none"/>
+<rect x=".5" y=".5" width="479" height="165" rx="9" fill="#090e0c" stroke="#24382e"/>
+<rect x="1" y="1" width="478" height="164" rx="9" fill="url(#grid)"/>
+<text x="24" y="41" font-size="24" fill="#e4f0e8" font-weight="700">Fast-Travel</text><text x="456" y="41" font-size="21" fill="#9dffb0" text-anchor="end">↗</text><text x="24" y="78" font-size="15" fill="#e4f0e8" >Comparador de passagens de ônibus.</text><text x="24" y="101" font-size="15" fill="#789184" >Busca por datas e benefícios ID Jovem.</text><text x="24" y="141" font-size="12" fill="#789184" >Next.js · TypeScript · APIs</text>
+<rect x="1" y="1" width="478" height="164" rx="9" fill="url(#scan)" pointer-events="none"/>
 </svg>
