@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="57" viewBox="0 0 320 57" role="img" aria-label="PORTFÓLIO — PORTFÓLIO">
+<title>PORTFÓLIO — PORTFÓLIO</title>
+<defs>
+ <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4" stroke="#000" stroke-opacity=".15"/></pattern>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9dffb0" stroke-opacity=".025"/></pattern>
+ <linearGradient id="sweep"><stop stop-color="#9dffb0" stop-opacity="0"/><stop offset=".5" stop-color="#9dffb0" stop-opacity=".6"/><stop offset="1" stop-color="#9dffb0" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+ text { font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace; }
+ .blink { animation: blink 1.5s steps(2, end) infinite; }
+ .breathe { animation: breathe 4s ease-in-out infinite; }
+ .flow { animation: flow 6s linear infinite; }
+ .rain { animation: rain 13s linear infinite; }
+ .reveal { animation: reveal 3s steps(28, end) 1 both; }
+ @keyframes blink { 50% { opacity: .15; } }
+ @keyframes breathe { 50% { opacity: .45; } }
+ @keyframes flow { to { transform: translateX(320px); } }
+ @keyframes rain { to { transform: translateY(280px); } }
+ @keyframes reveal { from { opacity: .25; } to { opacity: 1; } }
+</style>
+<rect x=".5" y=".5" width="319" height="56" rx="9" fill="#090e0c" stroke="#24382e"/>
+<rect x="1" y="1" width="318" height="55" rx="9" fill="url(#grid)"/>
+<text x="22" y="33" font-size="16" fill="#9dffb0" font-weight="600">PORTFÓLIO</text><text x="294" y="33" font-size="19" fill="#789184" text-anchor="end">↗</text>
+<rect x="1" y="1" width="318" height="55" rx="9" fill="url(#scan)" pointer-events="none"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="273" viewBox="0 0 480 273" role="img" aria-label="Masquerada — Conexões entre pessoas, de ponto a ponto. Mensagens, voz, tela e histórico local.">
+<title>Masquerada — Conexões entre pessoas, de ponto a ponto. Mensagens, voz, tela e histórico local.</title>
+<defs>
+ <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4" stroke="#000" stroke-opacity=".15"/></pattern>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9dffb0" stroke-opacity=".025"/></pattern>
+ <linearGradient id="sweep"><stop stop-color="#9dffb0" stop-opacity="0"/><stop offset=".5" stop-color="#9dffb0" stop-opacity=".6"/><stop offset="1" stop-color="#9dffb0" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+ text { font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace; }
+ .blink { animation: blink 1.5s steps(2, end) infinite; }
+ .breathe { animation: breathe 4s ease-in-out infinite; }
+ .flow { animation: flow 6s linear infinite; }
+ .rain { animation: rain 13s linear infinite; }
+ .reveal { animation: reveal 3s steps(28, end) 1 both; }
+ @keyframes blink { 50% { opacity: .15; } }
+ @keyframes breathe { 50% { opacity: .45; } }
+ @keyframes flow { to { transform: translateX(480px); } }
+ @keyframes rain { to { transform: translateY(280px); } }
+ @keyframes reveal { from { opacity: .25; } to { opacity: 1; } }
+</style>
+<rect x=".5" y=".5" width="479" height="272" rx="9" fill="#090e0c" stroke="#24382e"/>
+<rect x="1" y="1" width="478" height="271" rx="9" fill="url(#grid)"/>
+<text x="24" y="29" font-size="12" fill="#9dffb0" >[07] ~/masquerada</text><text x="456" y="29" font-size="11" fill="#d9bd84" text-anchor="end">DESKTOP</text><path d="M1 46H479" stroke="#24382e"/><text x="24" y="92" font-size="25" fill="#e4f0e8" font-weight="700" letter-spacing="-.6">Masquerada</text><text x="24" y="129" font-size="15" fill="#e4f0e8" >Conexões de ponto a ponto.</text><text x="24" y="153" font-size="15" fill="#e4f0e8" >Mensagens, voz, tela e histórico local.</text><text x="24" y="191" font-size="13" fill="#789184" >Electron · React · WebRTC · SQLite</text><path d="M24 213H456" stroke="#24382e"/><text x="24" y="245" font-size="10" fill="#789184" >COMUNICAÇÃO / P2P</text><text x="456" y="245" font-size="13" fill="#9dffb0" text-anchor="end">EXPLORAR ↗</text><rect class="flow" x="-480" y="271" width="480" height="1" fill="url(#sweep)" style="animation-delay:-5.6000000000000005s"/>
+<rect x="1" y="1" width="478" height="271" rx="9" fill="url(#scan)" pointer-events="none"/>
+</svg>
