@@ -44,15 +44,18 @@
 
 ## 🚀 Projetos em Destaque
 
-Confira alguns dos principais projetos do meu portfólio. Para a lista completa com arquitetura detalhada e guias de execução, acesse o **[📖 Guia dos Meus Projetos](https://github.com/ryuclover/Guia-dos-meus-projetos)**.
+Projetos recentes e aplicações que representam meu trabalho com interfaces, integrações, comunicação em tempo real e infraestrutura. Explore a arquitetura e os guias de execução no **[📖 Guia dos Meus Projetos](https://github.com/ryuclover/Guia-dos-meus-projetos)**.
 
 | Projeto | Descrição & Recursos Principais | Tecnologias | Acesso |
-| :--- | :--- | :--- | :---: |
-| **[Fast-Travel](https://github.com/ryuclover/Fast-Travel)** | Comparador inteligente de passagens de ônibus e motor oficial de vagas para **ID Jovem (100% e 50%)**. | Next.js 16 (Turbopack), TypeScript, Web Scraping / APIs | [![Demo](https://img.shields.io/badge/Live-Vercel-black?style=flat&logo=vercel)](https://fast-travel-phi.vercel.app) |
-| **[Serapeu](https://github.com/ryuclover/Serapeu)** | Plataforma colaborativa de tutoriais passo a passo com foco em **segurança OWASP, Row Level Security (RLS)** e testes com Vitest. | Next.js, Supabase, TypeScript, PLpgSQL | [![Demo](https://img.shields.io/badge/Live-Vercel-black?style=flat&logo=vercel)](https://serapeu.vercel.app) |
-| **[Masquerada](https://github.com/ryuclover/Masquerada)** | Aplicação desktop P2P para comunicação e compartilhamento de arquivos entre usuários. | Aplicação Desktop, P2P | [![GitHub](https://img.shields.io/badge/Código-Repo-181717?style=flat&logo=github)](https://github.com/ryuclover/Masquerada) |
+| :--- | :--- | :--- | :--- |
+| **[Wide Studio](https://github.com/ryuclover/wide-studio)** | Extensão para wide.video com workspace reorganizado, importação de pastas públicas do Google Drive e vídeos por URL, seleção múltipla e clipes vinculados. | TypeScript, extensão de navegador, integração com wide.video | [Download](https://github.com/ryuclover/wide-studio/releases/latest) |
+| **[Photopea AI Studio](https://github.com/ryuclover/photopea-ai-studio)** | Plugin experimental de edição por seleção com IA: captura do canvas, prévia, ajustes de borda e inserção do resultado em uma nova camada. | React, TypeScript, Vite, SDXL / Hugging Face | [Código e guia](https://github.com/ryuclover/photopea-ai-studio#readme) |
+| **[BeeHost](https://github.com/ryuclover/BeeHost)** | Plataforma de hospedagem de servidores Minecraft com vitrine pixel art, checkout PIX, provisionamento em nuvem e painéis de cliente e administrador. | React, TypeScript, Node.js, Asaas, Daytona, PaperMC | [Código e demonstrações](https://github.com/ryuclover/BeeHost#readme) |
+| **[Fast-Travel](https://github.com/ryuclover/Fast-Travel)** | Comparador de passagens de ônibus por intervalo de datas, com consulta de disponibilidade de benefícios ID Jovem e links para os provedores. | Next.js, TypeScript, APIs e web scraping | [Demo](https://fast-travel-phi.vercel.app) |
+| **[Serapeu](https://github.com/ryuclover/Serapeu)** | Plataforma colaborativa de tutoriais passo a passo, com políticas de acesso no banco, autenticação e testes automatizados. | Next.js, Supabase, PostgreSQL, TypeScript, Vitest | [Demo](https://serapeu.vercel.app) |
+| **[Masquerada](https://github.com/ryuclover/Masquerada)** | Aplicação desktop de comunicação P2P com mensagens, voz, compartilhamento de tela e histórico local. | Electron, React, TypeScript, WebRTC, SQLite | [Download](https://github.com/ryuclover/Masquerada/releases/latest) |
 
-> 💡 **Quer ver mais projetos?** Acesse o repositório **[Guia-dos-meus-projetos](https://github.com/ryuclover/Guia-dos-meus-projetos)** para explorar também meus projetos em Python quantitativo (**Cornucopia**), gateways de pagamento (**Módulo Mercado Pago**), aplicações desktop P2P (**Masquerada**) e mais!
+> 💡 No **[guia completo](https://github.com/ryuclover/Guia-dos-meus-projetos)** você também encontra Clicktube, Pixelboard, mangator, Cornucopia, Módulo Mercado Pago, Projeto Korp e meus projetos de interfaces e portfólio.
 
 ---
 
